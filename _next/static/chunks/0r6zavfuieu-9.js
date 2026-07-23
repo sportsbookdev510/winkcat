@@ -9376,23 +9376,23 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
   (e) => {
     "use strict";
     e.i(24290);
-    let t = "0x19ffb1f039532cbe75d69f3d35951090dbf9e7f5",
+    let t = "0xa1fd36e7e342de691f103a8490f496c48d889e3e",
       i = `https://app.uniswap.org/swap?chain=robinhood&outputCurrency=${t}`;
     e.s(
       [
         "site",
         0,
         {
-          name: "Wink Cat",
-          ticker: "$WINKCAT",
-          tagline: "The cat that winks on Robinhood.",
+          name: "Vladhood",
+          ticker: "$VLAD",
+          tagline: "The official Robinhood chain mascot.",
           description:
-            "Vlad has sent two cats here. Cat that winks and cashcat.\n\nDid you know that there is a cat that winks on Robinhood’s app?\n\nIf you have app, go try it yourself. A hidden cat that is still alive and kicking unlike $cashcat",
+            "Vladhood ($VLAD) the official Robinhood chain mascot. 🏹",
           contract: t,
           chain: "Robinhood",
           links: {
             buy: i,
-            twitter: "https://x.com/winkcatcoin",
+            twitter: "https://x.com/vladhood_X",
           },
           nav: [
             { label: "Lore", href: "#about" },
@@ -9744,7 +9744,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                           "ring-gold relative h-8 w-8 overflow-hidden rounded-full sm:h-9 sm:w-9",
                         children: (0, t.jsx)(r.default, {
                           src: "/images/img-toes.jpeg",
-                          alt: "Wink Cat logo",
+                          alt: "Vladhood logo",
                           fill: !0,
                           sizes: "36px",
                           className: "object-cover",
@@ -10142,11 +10142,11 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                           children: [
                             (0, t.jsx)("span", {
                               className: "block",
-                              children: "Wink Cat",
+                              children: "Vladhood",
                             }),
                             (0, t.jsx)("span", {
                               className: "block text-gold-gradient",
-                              children: "$WINKCAT",
+                              children: "$VLAD",
                             }),
                           ],
                         }),
@@ -10246,7 +10246,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                             "glow-gold absolute inset-0 overflow-hidden rounded-full",
                           children: (0, t.jsx)(i.default, {
                             src: "/images/img-toes.jpeg",
-                            alt: "Wink Cat logo",
+                            alt: "Vladhood logo",
                             fill: !0,
                             priority: !0,
                             sizes:
@@ -10288,8 +10288,8 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
       },
       {
         n: "03",
-        title: "Swap for $WINKCAT",
-        body: "Head to Uniswap, make sure you're on Robinhood chain, paste the contract address, hit swap. Congrats, you now own the cat that winks.",
+        title: "Swap for $VLAD",
+        body: "Head to Uniswap, make sure you're on Robinhood chain, paste the contract address, hit swap. Congrats, you now own Vladhood.",
       },
     ];
     e.s([
@@ -10318,7 +10318,7 @@ Read more: https://nextjs.org/docs/messages/next-image-unconfigured-localpattern
                       "How to get ",
                       (0, t.jsx)("span", {
                         className: "text-gold-gradient",
-                        children: "your wink.",
+                        children: "your $VLAD.",
                       }),
                     ],
                   }),
